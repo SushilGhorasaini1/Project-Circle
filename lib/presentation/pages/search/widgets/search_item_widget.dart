@@ -1,22 +1,17 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:circle/domain/entities/app_user.dart';
 import 'package:flutter/material.dart';
 
-class SaerchItemWidget extends StatelessWidget {
-  final String id;
-  final String name;
-  final String email;
-  final String imageUrl;
-  const SaerchItemWidget({
-    Key? key,
-    required this.id,
-    required this.name,
-    required this.email,
-    required this.imageUrl,
-  }) : super(key: key);
+class SearchItemWidget extends StatelessWidget {
+  final AppUser user;
+  const SearchItemWidget({Key? key, required this.user}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
+      onTap: () {
+        Navigator.pushNamed(context, "/chat", arguments: user);
+      },
       child: Container(
         margin: const EdgeInsets.all(5),
         padding: const EdgeInsets.all(5),
@@ -27,7 +22,7 @@ class SaerchItemWidget extends StatelessWidget {
               backgroundColor: Colors.grey.shade300,
               child: ClipOval(
                 child: CachedNetworkImage(
-                  imageUrl: imageUrl,
+                  imageUrl: user.imageUrl,
                 ),
               ),
             ),
@@ -37,7 +32,7 @@ class SaerchItemWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    name,
+                    user.name,
                     style: const TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.w600,
@@ -45,7 +40,7 @@ class SaerchItemWidget extends StatelessWidget {
                   ),
                   const SizedBox(height: 3),
                   Text(
-                    email,
+                    user.email,
                     style: TextStyle(
                       fontSize: 12,
                       color: Colors.grey.shade400,

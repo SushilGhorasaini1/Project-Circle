@@ -9,3 +9,4 @@ analyzer:
     overridden_fields: ignore
     annotate_overrides: ignore
     directives_ordering: ignore
+    sort_child_properties_last: ignore

@@ -15,11 +15,8 @@ class SearchBody extends StatelessWidget {
       itemCount: userList.length,
       itemBuilder: (context, index) {
         final item = userList[index];
-        return SaerchItemWidget(
-          id: item.uid,
-          name: item.name,
-          email: item.email,
-          imageUrl: item.imageUrl,
+        return SearchItemWidget(
+          user: item,
         );
       },
     );

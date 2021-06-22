@@ -16,20 +16,19 @@ class SearchAppBar extends StatelessWidget with PreferredSizeWidget {
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       elevation: 0,
       automaticallyImplyLeading: false,
-      titleSpacing: 0,
+      titleSpacing: 0.0,
       title: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10),
+        padding: const EdgeInsets.only(right: 10),
         child: Row(
           children: [
-            GestureDetector(
-              onTap: () {
+            IconButton(
+              onPressed: () {
                 Navigator.pop(context);
               },
-              child: Icon(
+              icon: const Icon(
                 FeatherIcons.chevronLeft,
-                color: Theme.of(context).brightness == Brightness.light
-                    ? Colors.black
-                    : Colors.white,
+                size: 30,
+                color: Colors.black,
               ),
             ),
             const SizedBox(width: 10),
