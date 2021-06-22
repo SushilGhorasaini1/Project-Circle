@@ -88,33 +88,38 @@ class CustomSliverDelegate extends SliverPersistentHeaderDelegate {
             left: 0,
             right: 0,
             bottom: 0,
-            child: Container(
-              margin: const EdgeInsets.symmetric(
-                horizontal: 10,
-                vertical: 10,
-              ),
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                color: Colors.grey.shade100,
-                borderRadius: BorderRadius.circular(5),
-              ),
-              child: Row(
-                children: [
-                  Icon(
-                    FeatherIcons.search,
-                    color: Colors.grey.shade500,
-                    size: 20,
-                  ),
-                  const SizedBox(width: 5),
-                  Text(
-                    "Searching for friends?",
-                    style: TextStyle(
+            child: GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, "/search");
+              },
+              child: Container(
+                margin: const EdgeInsets.symmetric(
+                  horizontal: 10,
+                  vertical: 10,
+                ),
+                padding: const EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade100,
+                  borderRadius: BorderRadius.circular(5),
+                ),
+                child: Row(
+                  children: [
+                    Icon(
+                      FeatherIcons.search,
                       color: Colors.grey.shade500,
-                      fontWeight: FontWeight.w500,
-                      fontSize: 15,
+                      size: 20,
                     ),
-                  ),
-                ],
+                    const SizedBox(width: 5),
+                    Text(
+                      "Searching for friends?",
+                      style: TextStyle(
+                        color: Colors.grey.shade500,
+                        fontWeight: FontWeight.w500,
+                        fontSize: 15,
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),

@@ -5,8 +5,8 @@ class HomeBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: [],
+    return const Center(
+      child: Text("Home"),
     );
   }
 }

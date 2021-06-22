@@ -13,6 +13,15 @@ class AppUserModel extends AppUser {
     required this.imageUrl,
   }) : super(uid: uid, name: name, email: email, imageUrl: imageUrl);
 
+  factory AppUserModel.fromMap(Map<String, dynamic> map) {
+    return AppUserModel(
+      uid: map["uid"].toString(),
+      name: map["name"].toString(),
+      email: map["email"].toString(),
+      imageUrl: map["imageUrl"].toString(),
+    );
+  }
+
   Map<String, dynamic> toMap() {
     final map = <String, dynamic>{};
     map["uid"] = uid;

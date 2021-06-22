@@ -8,3 +8,4 @@ analyzer:
     sort_pub_dependencies: ignore
     overridden_fields: ignore
     annotate_overrides: ignore
+    directives_ordering: ignore
