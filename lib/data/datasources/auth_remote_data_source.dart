@@ -1,10 +1,10 @@
-import 'package:circle/core/errors/exceptions.dart';
-import 'package:circle/data/models/app_user_model.dart';
+import '../../core/errors/exceptions.dart';
+import '../models/app_user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:circle/data/core/firebase_user_mapper.dart';
-import 'package:circle/data/core/firestore_helper.dart';
+import '../core/firebase_user_mapper.dart';
+import '../core/firestore_helper.dart';
 import 'package:injectable/injectable.dart';
 
 abstract class AuthRemoteDataSource {

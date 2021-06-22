@@ -1,6 +1,6 @@
-import 'package:circle/presentation/blocs/auth_bloc/auth_bloc.dart';
-import 'package:circle/presentation/blocs/sign_in_bloc/sign_in_bloc.dart';
-import 'package:circle/presentation/pages/sign_in/widgets/sign_in_body.dart';
+import '../../../blocs/auth_bloc/auth_bloc.dart';
+import '../../../blocs/sign_in_bloc/sign_in_bloc.dart';
+import 'sign_in_body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

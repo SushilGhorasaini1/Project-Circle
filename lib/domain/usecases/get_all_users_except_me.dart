@@ -1,7 +1,7 @@
-import 'package:circle/core/errors/failure.dart';
-import 'package:circle/domain/entities/app_user.dart';
-import 'package:circle/domain/repositories/user_repository.dart';
-import 'package:circle/domain/usecases/core/usecase.dart';
+import '../../core/errors/failure.dart';
+import '../entities/app_user.dart';
+import '../repositories/user_repository.dart';
+import 'core/usecase.dart';
 import 'package:dartz/dartz.dart';
 import 'package:injectable/injectable.dart';
 

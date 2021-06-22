@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:circle/core/errors/failure.dart';
-import 'package:circle/domain/usecases/sign_in_with_google.dart';
-import 'package:circle/domain/usecases/core/usecase.dart';
+import '../../../core/errors/failure.dart';
+import '../../../domain/usecases/sign_in_with_google.dart';
+import '../../../domain/usecases/core/usecase.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 

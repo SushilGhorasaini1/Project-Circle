@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:circle/domain/entities/app_user.dart';
-import 'package:circle/domain/usecases/sign_out.dart';
-import 'package:circle/domain/usecases/get_current_user.dart';
+import '../../../domain/entities/app_user.dart';
+import '../../../domain/usecases/sign_out.dart';
+import '../../../domain/usecases/get_current_user.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 

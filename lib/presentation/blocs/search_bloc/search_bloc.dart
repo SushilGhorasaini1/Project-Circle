@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:circle/core/errors/failure.dart';
-import 'package:circle/domain/entities/app_user.dart';
-import 'package:circle/domain/usecases/core/usecase.dart';
-import 'package:circle/domain/usecases/get_all_users_except_me.dart';
+import '../../../core/errors/failure.dart';
+import '../../../domain/entities/app_user.dart';
+import '../../../domain/usecases/core/usecase.dart';
+import '../../../domain/usecases/get_all_users_except_me.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 

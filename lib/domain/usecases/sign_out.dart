@@ -1,4 +1,4 @@
-import 'package:circle/domain/repositories/auth_repository.dart';
+import '../repositories/auth_repository.dart';
 import 'package:injectable/injectable.dart';
 
 @lazySingleton

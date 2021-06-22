@@ -1,5 +1,5 @@
-import 'package:circle/presentation/blocs/search_bloc/search_bloc.dart';
-import 'package:circle/presentation/pages/search/widgets/search_body.dart';
+import '../../../blocs/search_bloc/search_bloc.dart';
+import 'search_body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

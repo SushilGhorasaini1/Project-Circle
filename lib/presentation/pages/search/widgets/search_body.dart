@@ -1,5 +1,5 @@
-import 'package:circle/domain/entities/app_user.dart';
-import 'package:circle/presentation/pages/search/widgets/search_item_widget.dart';
+import '../../../../domain/entities/app_user.dart';
+import 'search_item_widget.dart';
 import 'package:flutter/material.dart';
 
 class SearchBody extends StatelessWidget {

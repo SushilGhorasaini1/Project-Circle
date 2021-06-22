@@ -1,6 +1,6 @@
-import 'package:circle/core/errors/exceptions.dart';
-import 'package:circle/domain/repositories/auth_repository.dart';
-import 'package:circle/injection.dart';
+import '../../core/errors/exceptions.dart';
+import '../../domain/repositories/auth_repository.dart';
+import '../../injection.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 extension FirestoreX on FirebaseFirestore {

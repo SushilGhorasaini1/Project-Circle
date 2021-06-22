@@ -24,6 +24,7 @@ class SaerchItemWidget extends StatelessWidget {
           children: [
             CircleAvatar(
               radius: 25,
+              backgroundColor: Colors.grey.shade300,
               child: ClipOval(
                 child: CachedNetworkImage(
                   imageUrl: imageUrl,

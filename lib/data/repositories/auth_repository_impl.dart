@@ -1,9 +1,9 @@
-import 'package:circle/core/errors/exceptions.dart';
-import 'package:circle/core/errors/failure.dart';
-import 'package:circle/core/network/network_info.dart';
-import 'package:circle/data/datasources/auth_remote_data_source.dart';
-import 'package:circle/domain/entities/app_user.dart';
-import 'package:circle/domain/repositories/auth_repository.dart';
+import '../../core/errors/exceptions.dart';
+import '../../core/errors/failure.dart';
+import '../../core/network/network_info.dart';
+import '../datasources/auth_remote_data_source.dart';
+import '../../domain/entities/app_user.dart';
+import '../../domain/repositories/auth_repository.dart';
 import 'package:dartz/dartz.dart';
 import 'package:injectable/injectable.dart';
 

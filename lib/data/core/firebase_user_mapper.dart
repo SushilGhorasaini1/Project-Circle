@@ -1,4 +1,4 @@
-import 'package:circle/data/models/app_user_model.dart';
+import '../models/app_user_model.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 extension FirebaseUsermapper on User {

@@ -1,7 +1,7 @@
-import 'package:circle/presentation/pages/home/home_page.dart';
-import 'package:circle/presentation/pages/search/search_page.dart';
-import 'package:circle/presentation/pages/sign_in/sign_in_page.dart';
-import 'package:circle/presentation/pages/splash/splash_plage.dart';
+import '../pages/home/home_page.dart';
+import '../pages/search/search_page.dart';
+import '../pages/sign_in/sign_in_page.dart';
+import '../pages/splash/splash_plage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,4 +1,4 @@
-import 'package:circle/domain/entities/app_user.dart';
+import '../../domain/entities/app_user.dart';
 
 class AppUserModel extends AppUser {
   final String uid;

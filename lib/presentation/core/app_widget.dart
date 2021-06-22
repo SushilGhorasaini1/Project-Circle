@@ -1,6 +1,6 @@
-import 'package:circle/injection.dart';
-import 'package:circle/presentation/blocs/auth_bloc/auth_bloc.dart';
-import 'package:circle/presentation/router/app_router.dart';
+import '../../injection.dart';
+import '../blocs/auth_bloc/auth_bloc.dart';
+import '../router/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

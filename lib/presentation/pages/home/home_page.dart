@@ -1,5 +1,5 @@
-import 'package:circle/presentation/pages/home/widgets/custom_sliver_delegate.dart';
-import 'package:circle/presentation/pages/home/widgets/home_body.dart';
+import 'widgets/custom_sliver_delegate.dart';
+import 'widgets/home_body.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

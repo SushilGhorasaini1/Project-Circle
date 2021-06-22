@@ -1,5 +1,5 @@
-import 'package:circle/domain/entities/app_user.dart';
-import 'package:circle/domain/repositories/auth_repository.dart';
+import '../entities/app_user.dart';
+import '../repositories/auth_repository.dart';
 import 'package:dartz/dartz.dart';
 import 'package:injectable/injectable.dart';
 

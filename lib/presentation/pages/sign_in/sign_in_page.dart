@@ -1,6 +1,6 @@
-import 'package:circle/injection.dart';
-import 'package:circle/presentation/blocs/sign_in_bloc/sign_in_bloc.dart';
-import 'package:circle/presentation/pages/sign_in/widgets/sign_in_main.dart';
+import '../../../injection.dart';
+import '../../blocs/sign_in_bloc/sign_in_bloc.dart';
+import 'widgets/sign_in_main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

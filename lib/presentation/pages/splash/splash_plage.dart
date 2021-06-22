@@ -1,5 +1,5 @@
-import 'package:circle/presentation/blocs/auth_bloc/auth_bloc.dart';
-import 'package:circle/presentation/widgets/logo_widget.dart';
+import '../../blocs/auth_bloc/auth_bloc.dart';
+import '../../widgets/logo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

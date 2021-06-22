@@ -1,8 +1,8 @@
-import 'package:circle/core/network/network_info.dart';
-import 'package:circle/data/datasources/user_remote_data_source.dart';
-import 'package:circle/domain/entities/app_user.dart';
-import 'package:circle/core/errors/failure.dart';
-import 'package:circle/domain/repositories/user_repository.dart';
+import '../../core/network/network_info.dart';
+import '../datasources/user_remote_data_source.dart';
+import '../../domain/entities/app_user.dart';
+import '../../core/errors/failure.dart';
+import '../../domain/repositories/user_repository.dart';
 import 'package:dartz/dartz.dart';
 import 'package:injectable/injectable.dart';
 

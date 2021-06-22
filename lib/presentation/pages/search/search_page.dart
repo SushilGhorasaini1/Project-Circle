@@ -1,7 +1,7 @@
-import 'package:circle/injection.dart';
-import 'package:circle/presentation/blocs/search_bloc/search_bloc.dart';
-import 'package:circle/presentation/pages/search/widgets/search_app_bar.dart';
-import 'package:circle/presentation/pages/search/widgets/search_main.dart';
+import '../../../injection.dart';
+import '../../blocs/search_bloc/search_bloc.dart';
+import 'widgets/search_app_bar.dart';
+import 'widgets/search_main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

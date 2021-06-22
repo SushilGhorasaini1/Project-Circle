@@ -1,5 +1,5 @@
-import 'package:circle/presentation/pages/sign_in/widgets/google_sign_in_button.dart';
-import 'package:circle/presentation/widgets/logo_widget.dart';
+import 'google_sign_in_button.dart';
+import '../../../widgets/logo_widget.dart';
 import 'package:flutter/material.dart';
 
 class SignInBody extends StatelessWidget {
