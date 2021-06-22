@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "543126164233",
+    "project_id": "circle-8c393",
+    "storage_bucket": "circle-8c393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543126164233:android:967a768e0c8c34dc06b9d8",
+        "android_client_info": {
+          "package_name": "com.tensu.circle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543126164233-gcr24egtm75n10nf577v5u3de6uh624p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tensu.circle",
+            "certificate_hash": "4ff80391827a96b21a2a8ce85da893416e9e3108"
+          }
+        },
+        {
+          "client_id": "543126164233-ld7039grfn0gcfuusail3jminst7o556.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiwkOvuV4MQ2sXjs_YErziCQKCBUfX_yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543126164233-ld7039grfn0gcfuusail3jminst7o556.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
